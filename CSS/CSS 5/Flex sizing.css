@@ -1,0 +1,43 @@
+#container {
+    height: 600px;
+    width: 50%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* For felx shrink we did no wrap */
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+
+#org {
+    /* align-self: flex-start; */
+    flex-basis: 500px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1;  */
+}
+
+/* Orange and blue both occupy the remaining space of container in
+equal proportion. */
+#blue {
+    /* flex-basis: 400px; */
+    /* flex-grow: 1; */
+    /* TO limit the growth */
+    /* max-width: 400px; */
+    /* min-width: 400px; */
+    flex-shrink: 2;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    /* font-size: 1.5em; */
+}

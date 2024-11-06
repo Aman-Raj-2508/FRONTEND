@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <script src="index2.js"></script> -->
+    <h1>Hi there</h1>
+    <!-- <script src="index2.js"></script> -->
+    <!--In bith the cases above first js is loaded then for loop executes then end printed then
+        parsing is done and "Hi there" is printed -->
+
+    <!-- What if we put a async tag? -->
+    <!-- This time hi there is already comming up while the js is loading.It means it allows parallelism-->
+    <script src="index2.js" async></script>
+</body>
+
+</html>

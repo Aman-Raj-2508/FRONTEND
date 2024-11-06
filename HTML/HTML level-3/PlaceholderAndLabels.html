@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/action">
+        <label>
+            Username :
+            <input type="text" placeholder="Enter username" />
+        </label>
+        <br>
+        <!-- Difference between label and without label -->
+        password:
+        <input type="password" placeholder="Enter password" />
+        <br>
+        <!-- Classical approach for label -->
+        <div>
+            <label for="Username">Enter your username</label>
+            <input type="text" id="Username" placeholder="Enter username" />
+        </div>
+        <div>
+            <label for="Password">Enter your password</label>
+            <input type="password" placeholder="Enter password" id="Password" />
+        </div>
+    </form>
+</body>
+
+</html>

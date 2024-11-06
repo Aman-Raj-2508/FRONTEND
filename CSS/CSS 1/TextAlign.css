@@ -1,0 +1,15 @@
+/* h1{ */
+    /* Allignment center me hai lekin webpage pe dikh rha h ki allignment right me h  */
+    /* text-align: center; */
+    /* border: solid; */
+    /* width: 50%; */
+/* } */
+h1{
+    text-align: center;
+}
+h3{
+    text-align: right;
+}
+p{
+    text-align: right;
+}

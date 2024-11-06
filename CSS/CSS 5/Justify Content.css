@@ -1,0 +1,55 @@
+#container {
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    /* When direct is normal */
+    flex-direction: row;
+    /* Justify content flex-start .So starts from left along the main axis
+    because main axis is from left to right.Also contents are moved like
+    violet to left and red to right*/
+    justify-content: flex-start;
+    /* When direction is reverse */
+    flex-direction: row-reverse;
+    /* Towards right necause now the start is towards right along main axis because
+    now main axis is from right to left.Also the content is moved towards right like
+    violet to right and red to left */
+    justify-content: flex-start;
+    /* Same for column */
+
+    /* /Justify content end */
+    flex-direction: row;
+    /* towards right all the content */
+    justify-content: flex-end;
+    /* When direction is reversed */
+    flex-direction: row-reverse;
+    /* towards left */
+    justify-content: flex-end;
+
+    /* Justify content center */
+    flex-direction: column-reverse;
+    justify-content: center;
+
+
+    flex-direction: row;
+    /* justify content space between */
+    justify-content: space-between;
+    /* justify content space around */
+    justify-content: space-around;
+    /* justify content space evenly */
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container div {
+    height: 30px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

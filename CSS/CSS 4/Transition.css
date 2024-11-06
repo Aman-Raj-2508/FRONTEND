@@ -1,0 +1,25 @@
+#first {
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+
+#first:hover {
+    background-color: burlywood;
+    border-radius: 50%;
+}
+
+#delay {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin-top: 10px;
+    transition: margin-top 1s ease-in 0.2s;
+}
+
+#delay:hover {
+    background-color: red;
+    margin-top: 400px;
+}

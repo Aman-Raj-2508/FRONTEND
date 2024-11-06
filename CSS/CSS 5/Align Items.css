@@ -1,0 +1,42 @@
+#container {
+    /* height: 300px; */
+
+    /* For baseline we changed the height */
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+    align-items: flex-end;
+    /* align-items: center; */
+    /* align-items: baseline; */
+    /* align-content: flex-start */
+}
+
+h1 {
+    text-align: center;
+}
+
+/* for align items effect we changed the height to 50px */
+/* #container div {
+    height: 50px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+} */
+
+
+/* For baseline effect we changed the height to 100px */
+#container div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

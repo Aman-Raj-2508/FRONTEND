@@ -1,0 +1,14 @@
+h2{
+    /* using color name */
+    color: orange;
+}
+p{
+    /* using rgb */
+    color: rgb(255,255,255);
+    background-color: black;
+}
+button{
+    /* using hexcode */
+    color:#ffffff;
+    background-color: blue;
+}

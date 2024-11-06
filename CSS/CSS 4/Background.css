@@ -1,0 +1,39 @@
+#original {
+    width: 400px;
+    height: 200px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("bgimage.jpg.jpg");
+    color: white;
+    text-align: center;
+}
+
+#contain {
+    width: 400px;
+    height: 200px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("bgimage.jpg.jpg");
+    background-size: contain;
+    /*Original Image is repeated */
+}
+
+#cover {
+    width: 400px;
+    height: 200px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("bgimage.jpg.jpg");
+    background-size: cover;
+    /* Image is cropped */
+}
+
+#auto {
+    width: 400px;
+    height: 200px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("bgimage.jpg.jpg");
+    background-size: auto;
+    /* Image is stretched */
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/server">
+        <fieldset>
+            <legend>Text Area</legend>
+            <div>
+                <!-- Without using rows and cols -->
+                <label for="Text">Please Enter Text:</label>
+                <textarea id="Text" name="text"></textarea>
+            </div>
+            <div>
+                <!-- With rows and cols -->
+                <label for="Text">Please Enter Text:</label>
+                <textarea id="Text" name="text" rows="5" cols="10" placeholder="Write your text here"></textarea>
+            </div>
+            <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+/* PART ONE */
+/* span {
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    padding: 50px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+div {
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    padding: 50px;
+    margin: 20px;
+    border: 2px solid black;
+} */
+
+/* PART TWo */
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 5px;
+
+    /* SAME LINE ME LAANE KE LIYE HM DISPLAY : INLINE KR DENGE */
+    display: inline;
+    /* YEH KARTE HI BAHUT SARA STYLING APPLY NHI HOGA ISILIYE KUCHH AUR SHAPE DIKH RHA HAI. 
+    LEKIN AGAR INLINE BHI RAHE AUR STYLING BHI HO JAYE TO YEH KARE */
+    display: inline-block;
+}
+
+/* To remove any element */
+#third {
+    display: none;
+}

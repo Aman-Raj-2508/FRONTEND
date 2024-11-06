@@ -1,0 +1,31 @@
+function demo() {
+    return new Promise(function (resolve, reject) {
+        console.log("hi");
+        setTimeout(function process() {
+            console.log("wohoo,task done");
+            resolve("students are the best");
+        }, 10000);
+        console.log("by");
+    })
+}
+
+let y = demo();
+console.log(y);
+
+function demo2(val) {
+    return new Promise(function (resolve, reject) {
+        console.log("Start");
+        setTimeout(function process() {
+            console.log("Completed timer");
+            if (val % 2 == 0) {
+                resolve("even");
+            } else {
+                reject("Odd");
+            }
+        }, 10000);
+        console.log("somewhere");
+    });
+}
+
+let x = demo2(4);
+console.log(x);  
