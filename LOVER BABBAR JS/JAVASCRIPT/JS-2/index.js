@@ -1,12 +1,12 @@
 console.log("Chaliye suru karte hai");
 
 //Object create
-let rectangle1 = { // write rectangle on browser to see the elements 
+let rectangle1 = { // write rectangle1 on browser to see the elements 
     length: 1,
     breadth: 2,
 
 
-    draw: function () { //use rectangle.draw() on browser to see the output
+    draw: function () { //use rectangle1.draw() on browser to see the output
         console.log('draw');
     }
 };
@@ -55,6 +55,7 @@ function Rectangle(l, b) {
 }
 //object creation using constructor
 let obj3 = new Rectangle(4, 6);
+
 //Dynamic nature of objects
 //adding
 obj3.color = 'blue';
@@ -67,7 +68,6 @@ console.log(obj3);
 let a = 10;
 function inc(a) {
     a++;
-
     console.log(a); //11
 }
 inc(a);
