@@ -19,7 +19,7 @@ x.marks = 100; //if marks key is already present it will update it , otherwise ,
 x["Company"] = "Google";
 console.log(x);
 //delete a key value pair
-//use delet operator along with  object.key
+//use delete operator along with  object.key
 
 delete x.name;
 console.log(x);
