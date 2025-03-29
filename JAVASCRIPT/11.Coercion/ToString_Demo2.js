@@ -32,8 +32,8 @@ console.log(x - 10);
  * 2-10=-8
  */
 
-let y = { "d": 90, valueOf() { return 2; }, toString() { return "custom"; } }
-console.log(x + "Aman"); //x will be 2 here
+let y = { "d": 90, valueOf() { return 3; }, toString() { return "custom"; } }
+console.log(y + "Aman"); //x will be 2 here
 
 let z = { "c": 90, valueOf() { return {}; }, toString() { return "custom"; } }
 console.log(z + "Aman"); //customAman
